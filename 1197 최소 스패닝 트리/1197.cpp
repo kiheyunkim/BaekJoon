@@ -7,7 +7,6 @@ struct Edge
 	int from;
 	int to;
 	int gravity;
-
 };
 
 struct Compare
