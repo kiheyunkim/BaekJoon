@@ -1,0 +1,5 @@
+a, b, c = map(float, input().split(' '))
+print(int((a + b) % c))
+print(int(((a % c) + (b % c)) % c))
+print(int((a * b) % c))
+print(int(((a % c) * (b % c)) % c))
